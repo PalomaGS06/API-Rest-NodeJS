@@ -1,4 +1,4 @@
-#  API REST no gerenciamento de eventos e pessoas 
+#  API REST no Gerenciamento de Eventos e Pessoas 
 
 <p align="center">Desenvolvimento de uma API REST de gerenciamento de eventos e pessoas, em Nodejs + Express.js !!</p>
 
