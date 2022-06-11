@@ -1,0 +1,14 @@
+{
+  "name": "teste_api-rest_nodejs",
+  "version": "1.0.0",
+  "description": "Teste de API Rest usando Javascript + Nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paloma Souza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

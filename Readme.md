@@ -1,0 +1,1 @@
+Desenvolvendo uma API REST de gerenciamento de eventos e pessoas, em Nodejs + Express.js !! 
