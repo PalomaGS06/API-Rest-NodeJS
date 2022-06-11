@@ -1,40 +1,40 @@
-// const Pessoas = require('.../model/pessoas')
+const Pessoas = require('.../model/pessoas')
 
-// module.exports = app => {
+module.exports = app => {
     
-//     app.get('/pessoas', (req, res) => {
-//         Pessoas.consultar(res); 
-//     });
+    app.get('/pessoas', (req, res) => {
+        Pessoas.consultar(res); 
+    });
 
-//     app.post('/pessoas', (req, res) => {
-//         console.log('Pessoas cadastradas')
-//         console.log(req.body);
+    app.post('/pessoas', (req, res) => {
+        console.log('Pessoas cadastradas')
+        console.log(req.body);
         
-//         const Pessoas = req.body;
+        const Pessoas = req.body;
 
-//         Pessoas.adicionar(Pessoas, res);
-//     });
+        Pessoas.adicionar(Pessoas, res);
+    });
 
-//     let routeId = app.route('/pessoas/:id');  
+    let routeId = app.route('/pessoas/:id');  
 
-//     routeId.get((req, res) => { 
-//         console.log(req.params); 
+    routeId.get((req, res) => { 
+        console.log(req.params); 
 
         
-//         Pessoas.buscarId(id, res);
-//         res.send('OK'); 
-//     })
+        Pessoas.buscarId(id, res);
+        res.send('OK'); 
+    })
 
     
-//     routeId.put((req, res) => {
-//         const id = parseInt(req.params);
-//         const valores = req.body;
+    routeId.put((req, res) => {
+        const id = parseInt(req.params);
+        const valores = req.body;
 
-//         Pessoas.atualizar(id, valores, res);
-//     });
+        Pessoas.atualizar(id, valores, res);
+    });
 
-//     routeId.delete((req, res) => {
-//         const id = parseInt(req.params);
-//         Pessoas.deletar(id, res);
-//     });
-// }
+    routeId.delete((req, res) => {
+        const id = parseInt(req.params);
+        Pessoas.deletar(id, res);
+    });
+}

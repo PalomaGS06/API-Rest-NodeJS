@@ -13,7 +13,7 @@ app.use (bodyParser.json()); // recebe dados via json
 consign().include('controller').into(app); //agrupa as pastas. Inclui a pasta "controllers" para "app"
 
 
-   //Tabelas.init(Conexao); //iniciar tabela
+   Tabelas.init(Conexao); //iniciar tabela
    
 
 app.listen(3000, '127.0.0.1', () => { 
