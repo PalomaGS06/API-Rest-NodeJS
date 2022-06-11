@@ -2,7 +2,7 @@
 
 <p align="center">Desenvolvimento de uma API REST de gerenciamento de eventos e pessoas, em Nodejs + Express.js !!</p>
 
-h2 align="center">Tecnologias utilizadas: </h2>
+<h2 align="center">Tecnologias utilizadas: </h2>
 
 <!--ts-->
 * [ Javascript](#Javascript)
